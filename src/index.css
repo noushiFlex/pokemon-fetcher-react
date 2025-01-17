@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+main {
+  font-family: "Acme", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+:root{
+  --custom-yellow : #ffc220;
+  --custom-white : #ffffff;
+  --custom-dark-blue : #041e42;
+  --custom-blue : #0071ce;
+}
